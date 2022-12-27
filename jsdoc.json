@@ -1,0 +1,23 @@
+{
+    "source": {
+        "include": [
+            "js/comic_archive.js",
+            "js/comic_footer.js", 
+            "js/comic_header.js",
+            "js/comic_settings.js",
+            "js/comic_show.js",
+            "README.md"
+        ]
+    },
+    "plugins": ["plugins/markdown"],
+    "opts": {
+        "encoding": "utf8",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true,
+        "template": "C:/Users/jumps/AppData/Roaming/npm/node_modules/jsdoc/templates/clean-jsdoc-theme",
+        "theme_opts": {
+            "theme": "dark"
+        }
+    }
+}

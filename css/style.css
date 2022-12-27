@@ -1,0 +1,179 @@
+body, div, main, section, article {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #DA5437; 
+}
+
+header img {
+    width: 500px;
+    max-width: 98%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#showComic, header, h1, h2, h3, h4, h5 {
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+.subPage p, footer, #authorNotes, .archiveTable {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.subPage {
+    width: 1000px;
+    max-width: 98%;
+    background-color: #ffffff;
+    outline: 3px solid #000000;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0px 12px 12px;
+}
+
+.subPage:not(.archivePage) {
+    text-align: center;
+}
+
+.leftPic {
+    clear: left;
+    float: right;
+    margin-left:20px;
+}
+
+.rightPic {
+    clear: right;
+    float: left;
+    margin-left:20px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.charTable, .charTable td { 
+    width: 100%;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #DA5437;
+}
+
+header #nav {
+    background-color: #ffffff;
+    outline: 3px solid #000000;
+    font-size: 20px;
+    width: 98%;
+    margin: auto;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.comicNav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.comicNav img {
+    width: 80px;
+    max-width: 98%;
+    padding-right: 30px;
+}
+
+.comicPage img {
+    width: 900px;
+    max-width: 98%;
+}
+
+#authorNotes {
+    background-color:#ffffff;
+    outline: 3px solid #000000;
+    margin: auto;
+    padding: 3px;
+    padding-top: 0px;
+    width: 900px;
+    max-width: 98%;
+}
+
+.archiveTable {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.archiveTable td {
+    padding: 3px;
+    vertical-align: center;
+}
+
+.archiveCellTitle:not(.leftAlignTableText) {
+    max-width: 300px;
+    text-align: center;
+}
+
+.archiveCellDate {
+    text-align: right;
+    min-width: 120px;
+}
+
+.archiveCellNum {
+    text-align: center;
+    min-width: 30px;
+}
+
+.archiveCellThumb {
+    width: 500px;
+    max-width: 60px;
+}
+.archiveCellThumb img{
+    max-width: 100%;
+}
+
+.leftAlignTableText td {
+    text-align: left;
+}
+
+.archiveRow:hover {
+    background-color: #DA5437;
+    cursor: pointer;
+}
+
+footer {
+    color: #421a1a;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+
+footer p {
+    margin: auto;
+}
+
+footer a {
+    color: #c8d32b
+}
+
+footer a:hover {
+    color: #868d26
+}
+
+html, body {
+     margin: 0;
+}
+
